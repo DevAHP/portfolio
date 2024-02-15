@@ -1,0 +1,48 @@
+.box-default {
+  background: linear-gradient(295deg, rgba(29,137,131,0) 0%, rgba(0,212,255,.2) 100%, rgba(148,157,234,1) 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box-default-small {
+  background: linear-gradient(295deg, rgba(29,137,131,0) 0%, rgba(0,212,255,.1) 100%, rgba(148,157,234,1) 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 20px;
+}
+
+.underline-title {
+  max-width: max-content;
+}
+
+.underline-title::after {
+  content: '';
+  display: block;
+  width: inherit;
+  height: 1px;
+  background: #ccb8b8;
+  margin: 6px 0 20px 0;
+}
+
+.animation-content {
+  animation: changeContent .3s ease-in-out forwards;
+}
+
+@keyframes changeContent {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

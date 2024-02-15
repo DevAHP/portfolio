@@ -1,0 +1,17 @@
+.experience {
+  width: 100%;
+}
+
+.experience .content-title {
+  margin-top: 32px;
+}
+
+.experience .content-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.experience .content-skills h2 {
+  margin-bottom: 20px;
+}

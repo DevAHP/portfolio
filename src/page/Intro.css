@@ -1,0 +1,56 @@
+.intro {
+  background-image: url("src/assets/img/bg-intro.png");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.intro .box-default {
+  width: 100%;
+  height: 100%;
+  padding-left: 60px;
+  overflow: hidden;
+}
+
+.intro h1 {
+  margin-top: 260px;
+  max-width: 18ch;
+} 
+
+.p-absolut {
+  position: absolute;
+  top: -71px;
+  right: -75px;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.text-circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotate-animation 40s linear infinite;
+}
+
+.text-circle span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 200px;
+}
+
+@keyframes rotate-animation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "skills": {
+    "languages": [
+      {
+        "name": "HTML",
+        "image": "src/assets/img/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "src/assets/img/css.png"
+      },
+      {
+        "name": "SASS",
+        "image": "src/assets/img/sass.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "src/assets/img/js.png"
+      },
+      {
+        "name": "TypeScript",
+        "image": "src/assets/img/ts.png"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Vue.js",
+        "image": "src/assets/img/vue.png"
+      },
+      {
+        "name": "Angular.js",
+        "image": "src/assets/img/angular.png"
+      },
+      {
+        "name": "React",
+        "image": "src/assets/img/react.png"
+      },
+      {
+        "name": "Pug.js",
+        "image": "src/assets/img/pug.png"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "src/assets/img/bootstrap.png"
+      }
+    ],
+    "others" : [
+      {
+        "name": "Git",
+        "image": "src/assets/img/git.png"
+      },
+      {
+        "name": "FileZilla",
+        "image": "src/assets/img/filezilla.png"
+      },
+      {
+        "name": "Jira",
+        "image": "src/assets/img/jira.png"
+      },
+      {
+        "name": "Figma",
+        "image": "src/assets/img/figma.png"
+      }
+    ]
+  }
+}

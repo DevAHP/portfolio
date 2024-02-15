@@ -1,0 +1,35 @@
+.graph-bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  grid-gap: 8px;
+  margin-bottom: 12px;
+}
+
+.graph-bar label {
+  position: relative;
+  padding-left: 8px;
+  margin-bottom: 6px;
+}
+
+.graph-bar label::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: '';
+  display: block;
+  width: 4px;
+  height: 8px;
+  border-radius: 2px 0 0 2px;
+  background: linear-gradient(305deg, rgba(255,217,17,1) 100%, rgba(177,151,13,0) 100%);
+}
+
+.graph-bar .progress {
+  height: 6px;
+}
+
+.graph-bar > span {
+  display: block;
+  color: #9e9e9e;
+  margin-bottom: -2px;
+}

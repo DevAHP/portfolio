@@ -1,0 +1,17 @@
+.content-header {
+  position: relative;
+  width: 100%;
+}
+
+.content-header > p {
+  max-width: 63ch;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.content-header > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+}

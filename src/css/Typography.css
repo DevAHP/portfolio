@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;400;500&display=swap');
+
+.title-lg {
+font: 400 3.375rem/1.2 "Poppins", sans-serif;
+}
+
+.title-md {
+font: 600 1.75rem/1.3 "Poppins", sans-serif;
+}
+
+.title-sm {
+font: 600 1.625rem/1.3 "Poppins", sans-serif;
+}
+
+.title-vsm {
+  font: 600 1.25rem/1.3 "Poppins", sans-serif;
+}
+
+.title-r-light-lg {
+font: 100 1.5rem/1.3 "Roboto", sans-serif;
+}
+
+.title-r-light {
+font: 100 1.25rem/1.3 "Roboto", sans-serif;
+}
+
+.title-r {
+font: 600 1rem/1.5 "Roboto", sans-serif;
+}
+
+.paragraph-lg {
+  font: 400 1.125rem/1.0 "Roboto", sans-serif;
+}
+
+.paragraph-md {
+  font: 400 1rem/1.0 "Roboto", sans-serif;
+}
+
+.paragraph-md-2 {
+  font: 400 0.875rem/1.0 "Roboto", sans-serif;
+}
+
+.paragraph-sm {
+  font: 400 0.75rem/1.0 "Roboto", sans-serif;
+}
+
+.paragraph-sm-b {
+  font: 600 0.75rem/1.0 "Roboto", sans-serif;
+}
