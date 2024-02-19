@@ -1,7 +1,14 @@
+import React from 'react'
 import {Link} from 'react-router-dom'
 import './Left-menu.css'
 
 const LeftMenu = () => {
+
+  const [backToHome, setBackToHome] = React.useState(false);
+  function controlBackToHome() {
+    backToHome === false ? setBackToHome(true) : setBackToHome(false);
+  }
+
   return (
     <section className="box-default left-menu col-md-3">
       <div className="profile">
@@ -25,10 +32,13 @@ const LeftMenu = () => {
           <p className="paragraph-sm c-gray-2">Conquistas</p>
           <img src="src/assets/img/conquistas.png" alt="" />
         </Link>
-        <div className="box-default-small mini-box-content">
+        <Link onClick={controlBackToHome} to="/projects" className="box-default-small mini-box-content">
           <p className="paragraph-sm c-gray-2">Projetos</p>
           <img src="src/assets/img/projetos.png" alt="" />
-        </div>
+        </Link>
+        {backToHome ? (
+          <Link onClick={controlBackToHome} to="/" className="back-home">Voltar ao início</Link>
+        ) : ''}
       </div>
       <div className="social-media">
         <img src="src/assets/img/wpp.png" alt=""/>

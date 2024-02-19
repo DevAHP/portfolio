@@ -62,5 +62,32 @@
         "image": "src/assets/img/figma.png"
       }
     ]
-  }
+  },
+  "videos" : [
+    {
+      "video": "src/assets/videos/deart.mp4",
+      "title": "Deart Quadros",
+      "text": "Nesse projeto, coloquei em pratica conceitos aprendidos no curso de HTML/CSS3/JavaScript, tais como, HTML semântico, design responsivo e complementei com efeitos paralax."
+    },
+    {
+      "video": "src/assets/videos/gestao-tarefas.mp4",
+      "title": "Gestão de Tarefas",
+      "text": "Nesse projeto, coloquei em pratica conceitos aprendidos no curso de HTML/CSS3/JavaScript, tais como, HTML semântico, design responsivo e complementei com efeitos paralax."
+    },
+    {
+      "video": "src/assets/videos/busca-cep.mp4",
+      "title": "Deart Quadros",
+      "text": "Nesse projeto, coloquei em pratica conceitos aprendidos no curso de HTML/CSS3/JavaScript, tais como, HTML semântico, design responsivo e complementei com efeitos paralax."
+    },
+    {
+      "video": "src/assets/videos/projeto-marq.mp4",
+      "title": "Gestão de Tarefas",
+      "text": "Nesse projeto, coloquei em pratica conceitos aprendidos no curso de HTML/CSS3/JavaScript, tais como, HTML semântico, design responsivo e complementei com efeitos paralax."
+    },
+    {
+      "video": "src/assets/videos/dev-page.mp4",
+      "title": "Gestão de Tarefas",
+      "text": "Nesse projeto, coloquei em pratica conceitos aprendidos no curso de HTML/CSS3/JavaScript, tais como, HTML semântico, design responsivo e complementei com efeitos paralax."
+    }
+  ]
 }

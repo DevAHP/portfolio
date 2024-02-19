@@ -1,0 +1,57 @@
+.box-card-palyer {
+  display: flex;
+  gap: 40px;
+  overflow-x: hidden;
+}
+
+.card-player {
+  padding: 0;
+  min-width: 397px;
+  min-height: 380px;
+  transition: all .3s ease;
+}
+
+.card-player iframe {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-player-content {
+  padding: 6px 12px;
+}
+
+.box-card-palyer .control {
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 40px;
+}
+
+.box-card-palyer .control button {
+  min-width: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: all .3s;
+}
+
+.box-card-palyer .control button:hover {
+  transform: scale(1.2);
+}
+
+.box-card-palyer .control button:disabled {
+  opacity: 0.5;
+}
+
+.control-left {
+  transform: rotate(90deg);
+  width: 20px;
+}
+
+.control-right {
+  transform: rotate(-90deg);
+  width: 20px;
+}

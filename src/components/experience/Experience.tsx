@@ -12,7 +12,7 @@ const Experience = () => {
   async function getSkill() {
     const response = await fetch('../../../skills.json');
     const json = await response.json();
-    console.log('haahah', json.skills);
+    
     setLanguages(json.skills.languages);
     setFrameworks(json.skills.frameworks);
     setOthers(json.skills.others);
