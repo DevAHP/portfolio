@@ -40,6 +40,18 @@
   width: 28px;
 }
 
+@media only screen and (max-width: 480px) {
+  .mini-card-box {
+    overflow-x: initial;
+    margin-bottom: 36px;
+    max-height: max-content;
+  }
+
+  .box-with-scroll > img {
+    display: none;
+  }
+}
+
 @keyframes scroll {
   0% {
     transform: translatey(0);

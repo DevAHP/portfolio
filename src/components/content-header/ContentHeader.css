@@ -15,3 +15,23 @@
   right: 0;
   opacity: 0.6;
 }
+
+@media only screen and (max-width: 480px) {
+  .content-header {
+    margin-top: 100px;
+  }
+
+  .content-header > h2 {
+    font-size: 20px;
+    margin-left: 38px;
+  }
+
+  .content-header > p {
+    font-size: 1rem;
+  }
+
+  .content-header > img {
+    width: 24px;
+    left: 0;
+  }
+}

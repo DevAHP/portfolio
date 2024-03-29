@@ -55,3 +55,17 @@
   transform: rotate(-90deg);
   width: 20px;
 }
+
+@media only screen and (max-width: 480px) {
+  .card-player {
+    min-width: fit-content;
+  }
+
+  .box-card-palyer {
+    overflow: scroll;
+  }
+
+  .box-card-palyer .control {
+    bottom: -48px;
+  }
+}
