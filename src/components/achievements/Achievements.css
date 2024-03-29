@@ -3,3 +3,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 16px;
 }
+
+@media only screen and (max-width: 480px) {
+  .achievements .content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

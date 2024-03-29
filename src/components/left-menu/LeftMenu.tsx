@@ -5,21 +5,41 @@ import './Left-menu.css'
 const LeftMenu = () => {
 
   const [backToHome, setBackToHome] = React.useState(false);
+  const screenSize = window.innerWidth;
+  const [showMenu, setShowMenu] = React.useState(false);
+  
   function controlBackToHome() {
     backToHome === false ? setBackToHome(true) : setBackToHome(false);
   }
+
+  function openCloseMenu() {
+    if (screenSize < 480) {
+      setShowMenu(!showMenu);
+    }
+  }
+
+  React.useEffect(() => {
+    screenSize > 480 ? setShowMenu(true) : setShowMenu(false);
+    
+  }, [screenSize])
 
   return (
     <section className="box-default left-menu col-md-3">
       <div className="profile">
         <img src="src/assets/img/profile.png" alt="Foto de perfil."/>
-        <h2 className="title-vsm c-white">André H Pereira</h2>
-        <p className="paragraph-lg c-gray-2">Desenvolvedor Front End 9 meses de experiência</p>
+        <div className="info">
+          <h2 className="title-vsm c-white">André H Pereira</h2>
+          <p className="paragraph-lg c-gray-2">Desenvolvedor Front End 10 meses de experiência</p>
+          <p className="paragraph-lg c-gray-2 text-mobile">Desenvolvedor Front End</p>
+        </div>
+        <a className="btn-mobile" onClick={openCloseMenu}>
+          <ion-icon name="menu-outline"></ion-icon>
+        </a>
       </div>
       <h3 className="paragraph-md c-white"></h3>
       <div>
       </div>
-      <div className="mini-box">
+      <div className="mini-box" onClick={openCloseMenu} style={{display: showMenu? "flex" : "none"}}>
         <Link to="/about-me" className="box-default-small mini-box-content">
           <p className="paragraph-sm c-gray-2">Sobre mim</p>
           <img src="src/assets/img/sobre.png" alt="" />
