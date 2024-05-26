@@ -70,3 +70,7 @@
     margin-top: 24px;
   }
 }
+
+.teste {
+  overflow-y: hidden;
+}
