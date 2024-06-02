@@ -29,11 +29,11 @@ const LeftMenu = () => {
         <img src="src/assets/img/profile.png" alt="Foto de perfil."/>
         <div className="info">
           <h2 className="title-vsm c-white">André H Pereira</h2>
-          <p className="paragraph-lg c-gray-2">Desenvolvedor Front End 10 meses de experiência</p>
+          <p className="paragraph-lg c-gray-2">Desenvolvedor Front End 1 ano de experiência</p>
           <p className="paragraph-lg c-gray-2 text-mobile">Desenvolvedor Front End</p>
         </div>
         <a className="btn-mobile" onClick={openCloseMenu}>
-          <ion-icon name="menu-outline"></ion-icon>
+          {/* <ion-icon name="menu-outline"></ion-icon> */}
         </a>
       </div>
       <h3 className="paragraph-md c-white"></h3>
